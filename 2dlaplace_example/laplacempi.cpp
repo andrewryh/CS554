@@ -19,8 +19,9 @@ int main(int argc, char *argv[])
 	int i,j,x,y,k;
 	int size;
 	double dot =0,finres;
-	size=(N-2)*(N-2);
+	size=10*(N-2)*(N-2);
 	double *B=new double[size];
+	if (rank==0){cout<<"Grid "<<size<<" points"<<endl;}
 	// to make sure that the first processors get the 1 more data point than the later ones
 	 if(rank<(size%p))
 	{
@@ -179,7 +180,7 @@ int main(int argc, char *argv[])
 			alden=alden+matvec[i]*P[i];
 		}
 		MPI_Allreduce(&alden,&glalden,1,MPI_DOUBLE,MPI_SUM,MPI_COMM_WORLD);	
-	//	cout<<"alden global"<<glalden<<"  alden local "<<alden<<" rank--->"<<rank<<endl;
+		//cout<<"alden global"<<glalden<<"  alden local "<<alden<<" rank--->"<<rank<<endl;
 
 		double alnum=0.0;
 		for(i=0;i<bcount[rank];i++)
@@ -189,7 +190,7 @@ int main(int argc, char *argv[])
 		MPI_Allreduce(&alnum,&glalnum,1,MPI_DOUBLE,MPI_SUM,MPI_COMM_WORLD);		
 		alpha=0.0;
 		alpha=glalnum/glalden;
-//		cout<<alpha<<"<--alph , aldnum global "<<glalnum<<" "<<alnum<<" rank: "<<rank<<endl;	
+		//cout<<alpha<<"<--alph , aldnum global "<<glalnum<<" "<<alnum<<" rank: "<<rank<<endl;	
 		for(i=0;i<bcount[rank];i++)
 		{
 			X[i]=X[i]+alpha*P[i];
@@ -230,7 +231,7 @@ int main(int argc, char *argv[])
 		{
 		for(i=0;i<size;i++)
 		{
-			  cout<<B_V[i]<<endl;
+		  // cout<<B_V[i]<<endl;
 		}
 		
 		cout<<endl;

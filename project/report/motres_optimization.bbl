@@ -1,0 +1,108 @@
+\begin{thebibliography}{10}
+\newcommand{\enquote}[1]{``#1''}
+
+\bibitem{haubenreich_experience_1970}
+\MakeUppercase{P.~N. Haubenreich} and \MakeUppercase{J.~R. Engel},
+  \enquote{Experience with the {Molten}-{Salt} {Reactor} {Experiment},}
+  \emph{Nuclear Technology}, \textbf{8}, \emph{2}, 118--136 (Feb. 1970).
+
+\bibitem{leblanc_molten_2010}
+\MakeUppercase{D.~LeBlanc}, \enquote{Molten salt reactors: {A} new beginning
+  for an old idea,} \emph{Nuclear Engineering and Design}, \textbf{240},
+  \emph{6}, 1644--1656 (Jun. 2010).
+
+\bibitem{krepel_dyn3d-msr_2007}
+\MakeUppercase{J.~Křepel}, \MakeUppercase{U.~Rohde},
+  \MakeUppercase{U.~Grundmann}, and \MakeUppercase{F.-P. Weiss},
+  \enquote{{DYN}3D-{MSR} spatial dynamics code for molten salt reactors,}
+  \emph{Annals of Nuclear Energy}, \textbf{34}, \emph{6}, 449--462 (Jun. 2007).
+
+\bibitem{kophazi_development_2009}
+\MakeUppercase{J.~Kophazi}, \MakeUppercase{D.~Lathouwers}, and
+  \MakeUppercase{J.~Kloosterman}, \enquote{Development of a
+  {Three}-{Dimensional} {Time}-{Dependent} {Calculation} {Scheme} for {Molten}
+  {Salt} {Reactors} and {Validation} of the {Measurement} {Data} of the
+  {Molten} {Salt} {Reactor} {Experiment},} \emph{Nuclear Science and
+  Engineering}, \textbf{163}, \emph{2}, 118--131 (2009).
+
+\bibitem{cammi_multi-physics_2011}
+\MakeUppercase{A.~Cammi}, \MakeUppercase{V.~Di~Marcello},
+  \MakeUppercase{L.~Luzzi}, \MakeUppercase{V.~Memoli}, and \MakeUppercase{M.~E.
+  Ricotti}, \enquote{A multi-physics modelling approach to the dynamics of
+  {Molten} {Salt} {Reactors},} \emph{Annals of Nuclear Energy}, \textbf{38},
+  \emph{6}, 1356--1372 (Jun. 2011).
+
+\bibitem{aufiero_development_2014}
+\MakeUppercase{M.~Aufiero}, \MakeUppercase{A.~Cammi},
+  \MakeUppercase{O.~Geoffroy}, \MakeUppercase{M.~Losa},
+  \MakeUppercase{L.~Luzzi}, \MakeUppercase{M.~E. Ricotti}, and
+  \MakeUppercase{H.~Rouch}, \enquote{Development of an {OpenFOAM} model for the
+  {Molten} {Salt} {Fast} {Reactor} transient analysis,} \emph{Chemical
+  Engineering Science}, \textbf{111}, 390--401 (May 2014).
+
+\bibitem{weller_tensorial_1998}
+\MakeUppercase{H.~G. Weller}, \MakeUppercase{G.~Tabor},
+  \MakeUppercase{H.~Jasak}, and \MakeUppercase{C.~Fureby}, \enquote{A tensorial
+  approach to computational continuum mechanics using object-oriented
+  techniques,} \emph{Computers in physics}, \textbf{12}, \emph{6}, 620--631
+  (1998).
+
+\bibitem{lindsay_moltres_2017}
+\MakeUppercase{A.~Lindsay}, \enquote{Moltres, a code for simulating {Molten}
+  {Salt} {Reactors},}  (2017), https://github.com/arfc/moltres.
+
+\bibitem{gaston_physics-based_2015}
+\MakeUppercase{D.~R. Gaston}, \MakeUppercase{C.~J. Permann},
+  \MakeUppercase{J.~W. Peterson}, \MakeUppercase{A.~E. Slaughter},
+  \MakeUppercase{D.~Andrš}, \MakeUppercase{Y.~Wang}, \MakeUppercase{M.~P.
+  Short}, \MakeUppercase{D.~M. Perez}, \MakeUppercase{M.~R. Tonks},
+  \MakeUppercase{J.~Ortensi}, \MakeUppercase{L.~Zou}, and \MakeUppercase{R.~C.
+  Martineau}, \enquote{Physics-based multiscale coupling for full core nuclear
+  reactor simulation,} \emph{Annals of Nuclear Energy}, \textbf{84}, 45--54
+  (Oct. 2015).
+
+\bibitem{kirk_libmesh:_2006}
+\MakeUppercase{B.~S. Kirk}, \MakeUppercase{J.~W. Peterson},
+  \MakeUppercase{R.~H. Stogner}, and \MakeUppercase{G.~F. Carey},
+  \enquote{{libMesh}: a {C}++ library for parallel adaptive mesh
+  refinement/coarsening simulations,} \emph{Engineering with Computers},
+  \textbf{22}, \emph{3-4}, 237--254 (Dec. 2006).
+
+\bibitem{satish_balay_petsc_2015}
+\MakeUppercase{{Satish Balay}}, \MakeUppercase{{Shrirang Abhyankar}},
+  \MakeUppercase{{Mark Adams}}, \MakeUppercase{{Jed Brown}},
+  \MakeUppercase{{Peter Brune}}, \MakeUppercase{{Kris Buschelman}},
+  \MakeUppercase{{Lisandro Dalcin}}, \MakeUppercase{{Victor Eijkhout}},
+  \MakeUppercase{{William Grop}}, \MakeUppercase{{Dinesh Kaushik}},
+  \MakeUppercase{{Matthew Knepley}}, \MakeUppercase{{Lois Curfman McInnes}},
+  \MakeUppercase{{Karl Rupp}}, \MakeUppercase{{Barry Smith}},
+  \MakeUppercase{{Stefano Zampini}}, and \MakeUppercase{{Hong Zhang}},
+  \enquote{{PETSc} {Users} {Manual},} Tech. Rep. ANL-95/11 - Revision 3.6,
+  Argonne National Laboratory (2015).
+
+\bibitem{leppanen_serpent_2015}
+\MakeUppercase{J.~Lepp{\"a}nen}, \MakeUppercase{M.~Pusa},
+  \MakeUppercase{T.~Viitanen}, \MakeUppercase{V.~Valtavirta}, and
+  \MakeUppercase{T.~Kaltiaisenaho}, \enquote{The {Serpent} {Monte} {Carlo}
+  code: {Status}, development and applications in 2013,} \emph{Annals of
+  Nuclear Energy}, \textbf{82}, 142--150 (Aug. 2015).
+
+\bibitem{dehart_reactor_2011}
+\MakeUppercase{M.~D. DeHart} and \MakeUppercase{S.~M. Bowman}, \enquote{Reactor
+  {Physics} {Methods} and {Analysis} {Capabilities} in {SCALE},} \emph{Nuclear
+  Technology}, \textbf{174}, \emph{2}, 196--213 (May 2011).
+
+\bibitem{kirk2006}
+\MakeUppercase{B.~S. Kirk}, \MakeUppercase{J.~W. Peterson},
+  \MakeUppercase{R.~H. Stogner}, and \MakeUppercase{G.~F. Carey},
+  \enquote{libMesh : a C++ library for parallel adaptive mesh
+  refinement/coarsening simulations,} \emph{Engineering with Computers},
+  \textbf{22}, \emph{3}, 237--254 (Dec 2006).
+
+\bibitem{briggs_molten-salt_1964}
+\MakeUppercase{R.~B. Briggs}, \enquote{Molten-{Salt} {Reactor} {Program}
+  semiannual progress report for period ending {July} 31, 1964,} Technical
+  {Report} {Archive} and {Image} {Library} ORNL-3708, Oak Ridge National
+  Laboratory, Oak Ridge, TN, United States (1964).
+
+\end{thebibliography}
